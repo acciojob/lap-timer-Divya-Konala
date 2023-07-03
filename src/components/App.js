@@ -24,6 +24,7 @@ const App = () => {
 
   const handleReset=()=>{
     setCountDown("00:00:00");
+    setLapList([]);
   }
 
   const handleTimer=()=>{
